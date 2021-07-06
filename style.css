@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+   
 }
 .flexible-container{
     display: flex;
@@ -81,7 +82,72 @@ h2{
 .recipi-desc{
     padding: 20px;
 }
+.find-btn{
+    text-align: center;
+}
+.find-btn input{
+    height: 30px;
+    width: 400px;
+    padding: 15px;
+    font-size: 20px;
+    border: 5px solid blue;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+.find-btn a{
+    margin-left: 50px;
+}
+.order-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.order-btn a{
+    text-decoration: none;
+    padding: 15px 50px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    
+}
+#feedback-section{
+    background-color: #CDF0EA;
+    padding-top: 70px;
+}
+.feedback{
+    padding-left: 200px;
+}
+.feedback-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.optional-section{
+    width: 30%;
+    text-align: center;
+}
+#optional-box-shadow{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.default-color2{
+    color: gray;
 
+}
+footer p{
+    margin-top: 30px;
+}
 
 
 
